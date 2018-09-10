@@ -19,7 +19,7 @@ function incrementVariable() {
 }
 function doWhileLoop(array) {
   do {
-    array.pop;
+    console.log(array.pop());
   } while (array.length > 0 && incrementVariable())
   return array;
 }
